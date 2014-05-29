@@ -286,7 +286,7 @@ Full-Width Styles
 
 #contact_banner {
   display: inline;
-  position: absolute;
+  position: relative;
   bottom:15px;
   right: 10px;
   z-index: 0;
@@ -299,7 +299,7 @@ Full-Width Styles
 
 #about_banner {
   display: inline;
-  position: absolute;
+  position: relative;
   bottom:15px;
   right: 100px;
   z-index: 0;
@@ -312,7 +312,7 @@ Full-Width Styles
 
 #home_banner {
   display: inline;
-  position: absolute;
+  position: relative;
   bottom:15px;
   right: 180px;
   z-index: 0;
