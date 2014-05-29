@@ -254,8 +254,14 @@ th {
 
 tr{
 <<<<<<< HEAD
+<<<<<<< HEAD
 	position:relative;
 }
+=======
+  position:relative;
+  padding:0;
+ }
+>>>>>>> FETCH_HEAD
 =======
   position:relative;
   padding:0;
