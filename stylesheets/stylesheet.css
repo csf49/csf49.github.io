@@ -254,6 +254,10 @@ th {
 
 tr{
 	position:relative;
+<<<<<<< HEAD
+=======
+	padding:0;
+>>>>>>> FETCH_HEAD
 }
 
 td {
