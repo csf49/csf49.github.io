@@ -284,10 +284,10 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
-#home_banner {
+#contact_banner {
   display: inline;
   position: absolute;
-  bottom:5;
+  bottom:0.5;
   right: 20px;
   z-index: 0;
   padding: 2px 5px 0px 5px;
@@ -300,7 +300,7 @@ Full-Width Styles
 #about_banner {
   display: inline;
   position: absolute;
-  bottom:5;
+  bottom:0.5;
   right: 100px;
   z-index: 0;
   padding: 2px 5px 0px 5px;
@@ -310,10 +310,10 @@ Full-Width Styles
   
 }
 
-#contact_banner {
+#home_banner {
   display: inline;
   position: absolute;
-  bottom:5;
+  bottom:0.5;
   right: 180px;
   z-index: 0;
   padding: 2px 5px 0px 5px;
