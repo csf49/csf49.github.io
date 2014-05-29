@@ -269,6 +269,15 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+
+.bannercol{
+  
+ background: #5a5a5a;
+ position:relative;
+ padding:1px;
+ 
+}
+
 #forkme_banner {
   display: block;
   position: absolute;
@@ -286,7 +295,7 @@ Full-Width Styles
 
 #contact_banner {
   display: inline;
-  position: relative;
+  position: absolute;
   bottom:15px;
   right: 10px;
   z-index: 0;
@@ -299,7 +308,7 @@ Full-Width Styles
 
 #about_banner {
   display: inline;
-  position: relative;
+  position: absolute;
   bottom:15px;
   right: 100px;
   z-index: 0;
@@ -312,7 +321,7 @@ Full-Width Styles
 
 #home_banner {
   display: inline;
-  position: relative;
+  position: absolute;
   bottom:15px;
   right: 180px;
   z-index: 0;
