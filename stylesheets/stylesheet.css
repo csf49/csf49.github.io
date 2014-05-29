@@ -252,6 +252,11 @@ th {
   color: #fff;
  }
 
+tr{
+	position:relative;
+	padding:0;
+}
+
 td {
   padding: 0 100px 0 0;
   border: 0 solid #373737;
