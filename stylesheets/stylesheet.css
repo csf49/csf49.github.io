@@ -284,7 +284,7 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
-#about_banner {
+#home_banner {
   display: inline;
   position: absolute;
   bottom:0;
@@ -296,6 +296,33 @@ Full-Width Styles
   font-weight: 700;
   
 }
+
+#about_banner {
+  display: inline;
+  position: absolute;
+  bottom:0;
+  left: 50px;
+  z-index: 0;
+  padding: 2px 5px 0px 5px;
+  color: #fff;
+  background:#5a5a5a no-repeat 95% 50%;
+  font-weight: 700;
+  
+}
+
+#contact_banner {
+  display: inline;
+  position: absolute;
+  bottom:0;
+  left: 90px;
+  z-index: 0;
+  padding: 2px 5px 0px 5px;
+  color: #fff;
+  background:#5a5a5a no-repeat 95% 50%;
+  font-weight: 700;
+  
+}
+
 
 #header_wrap {
   background: #212121;
