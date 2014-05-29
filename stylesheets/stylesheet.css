@@ -286,7 +286,7 @@ Full-Width Styles
 
 #about_banner {
   display: inline;
-  position: relative;
+  position: absolute;
   bottom:0;
   left: 10px;
   z-index: 0;
