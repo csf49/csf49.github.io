@@ -253,12 +253,9 @@ th {
  }
 
 tr{
-	position:relative;
-<<<<<<< HEAD
-=======
-	padding:0;
->>>>>>> FETCH_HEAD
-}
+  position:relative;
+  padding:0;
+ }
 
 td {
   padding: 0 100px 0 0;
