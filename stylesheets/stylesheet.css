@@ -287,8 +287,8 @@ Full-Width Styles
 #home_banner {
   display: inline;
   position: absolute;
-  bottom:20;
-  right: 30px;
+  bottom:5;
+  right: 20px;
   z-index: 0;
   padding: 2px 5px 0px 5px;
   color: #fff;
@@ -300,8 +300,8 @@ Full-Width Styles
 #about_banner {
   display: inline;
   position: absolute;
-  bottom:20;
-  left: 110px;
+  bottom:5;
+  right: 100px;
   z-index: 0;
   padding: 2px 5px 0px 5px;
   color: #fff;
@@ -313,8 +313,8 @@ Full-Width Styles
 #contact_banner {
   display: inline;
   position: absolute;
-  bottom:20;
-  left: 190px;
+  bottom:5;
+  right: 180px;
   z-index: 0;
   padding: 2px 5px 0px 5px;
   color: #fff;
