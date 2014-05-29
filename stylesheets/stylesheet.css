@@ -301,7 +301,7 @@ Full-Width Styles
   display: inline;
   position: absolute;
   bottom:0;
-  left: 50px;
+  left: 80px;
   z-index: 0;
   padding: 2px 5px 0px 5px;
   color: #fff;
@@ -314,7 +314,7 @@ Full-Width Styles
   display: inline;
   position: absolute;
   bottom:0;
-  left: 90px;
+  left: 150px;
   z-index: 0;
   padding: 2px 5px 0px 5px;
   color: #fff;
