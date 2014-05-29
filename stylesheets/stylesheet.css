@@ -152,8 +152,8 @@ p img {
   display: inline;
   margin: 0;
   padding: 0;
-  vertical-align: middle;
-  text-align: right;
+  vertical-align: baselin;
+  text-align:center;
   border: none;
 }
 
@@ -271,10 +271,10 @@ Full-Width Styles
 
 
 .bannercol{
-  
+ height:50px;
  background: #5a5a5a;
  position:relative;
- padding:1px;
+ padding:0;
  
 }
 
@@ -297,9 +297,9 @@ Full-Width Styles
   display: inline;
   position: absolute;
   bottom:15px;
-  right: 10px;
+  right: 30px;
   z-index: 0;
-  padding: 2px 5px 0px 5px;
+  padding: 0;
   color: #fff;
   background:#5a5a5a no-repeat 95% 50%;
   font-weight: 700;
@@ -310,9 +310,9 @@ Full-Width Styles
   display: inline;
   position: absolute;
   bottom:15px;
-  right: 100px;
+  right: 120px;
   z-index: 0;
-  padding: 2px 5px 0px 5px;
+  padding: 0;
   color: #fff;
   background:#5a5a5a no-repeat 95% 50%;
   font-weight: 700;
@@ -323,9 +323,9 @@ Full-Width Styles
   display: inline;
   position: absolute;
   bottom:15px;
-  right: 180px;
+  right: 200px;
   z-index: 0;
-  padding: 2px 5px 0px 5px;
+  padding: 0;
   color: #fff;
   background:#5a5a5a no-repeat 95% 50%;
   font-weight: 700;
