@@ -40,7 +40,7 @@ ol, ul {
 }
 
 table {
-  border-collapse: collapse;
+  border-collapse:separate;
   border-spacing: 0;
 }
 
@@ -101,6 +101,14 @@ footer p {
   color: #f2f2f2;
 }
 
+.recentcontent p {
+	display:block;
+	position:relative;
+	font-size:smaller;
+	font-weight:100;
+	word-break: break-strict;
+}
+
 a {
   text-decoration: none;
   color: #007edf;
@@ -138,7 +146,7 @@ img {
   margin: 0 auto;
   max-width: 739px;
   padding: 5px;
-  margin: 10px 0 10px 0;
+  margin: 10px 0 0 0;
   border: 1px solid #ebebeb;
 
   box-shadow: 0 0 5px #ebebeb;
@@ -152,7 +160,7 @@ p img {
   display: inline;
   margin: 0;
   padding: 0;
-  vertical-align: baselin;
+  vertical-align: baseline;
   text-align:center;
   border: none;
 }
@@ -232,7 +240,7 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
+  border: 0 solid #373737;
   margin-bottom: 20px;
   text-align: left;
  }
@@ -245,8 +253,8 @@ th {
  }
 
 td {
-  padding: 10px;
-  border: 1px solid #373737;
+  padding: 0 100px 0 0;
+  border: 0 solid #373737;
  }
 
 form {
@@ -269,13 +277,23 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-
 .bannercol{
- height:50px;
+ height:25px;
  background: #5a5a5a;
  position:relative;
  padding:0;
- 
+ margin-top:30px;
+}
+
+.contentstuffing{
+	height:100px;
+	margin-top:100px;
+	text-align:center;
+}
+
+.recentcontent{
+	
+	font-size:900;
 }
 
 #forkme_banner {
@@ -296,42 +314,41 @@ Full-Width Styles
 #contact_banner {
   display: inline;
   position: absolute;
-  bottom:15px;
+  bottom:0;
   right: 30px;
   z-index: 0;
   padding: 0;
   color: #fff;
   background:#5a5a5a no-repeat 95% 50%;
-  font-weight: 700;
+  font-weight: 100;
   
 }
 
 #about_banner {
   display: inline;
   position: absolute;
-  bottom:15px;
+  bottom:0;
   right: 120px;
   z-index: 0;
   padding: 0;
   color: #fff;
   background:#5a5a5a no-repeat 95% 50%;
-  font-weight: 700;
+  font-weight: 100;
   
 }
 
 #home_banner {
   display: inline;
   position: absolute;
-  bottom:15px;
+  bottom:0;
   right: 200px;
   z-index: 0;
   padding: 0;
   color: #fff;
   background:#5a5a5a no-repeat 95% 50%;
-  font-weight: 700;
+  font-weight: 100;
   
 }
-
 
 #header_wrap {
   background: #212121;
@@ -343,7 +360,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 50px 10px 0px 10px;
 }
 
 #project_title {
