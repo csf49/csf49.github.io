@@ -252,21 +252,10 @@ th {
   color: #fff;
  }
 
-tr{
-<<<<<<< HEAD
-<<<<<<< HEAD
-	position:relative;
+tr {
+  position:relative;
 }
-=======
-  position:relative;
-  padding:0;
- }
->>>>>>> FETCH_HEAD
-=======
-  position:relative;
-  padding:0;
- }
->>>>>>> FETCH_HEAD
+
 
 td {
   padding: 0 100px 0 0;
