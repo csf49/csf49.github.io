@@ -264,6 +264,7 @@ td {
 .lansel td{
 	display:inline;
 	position:relative;
+	alignment-adjust: central;
 	font-weight:900;
 	color:#fff;
 	margin:auto;
@@ -293,22 +294,6 @@ form {
 Full-Width Styles
 *******************************************************************************/
 
-.indexlan img {
-	position:relative;
-	height:auto;
-	width:auto;
-	display:block;
-	margin: auto;
-	margin-top: 2px;
-	padding:0;
-	
-	box-shadow: 0 0 0 0 #000000;
-  -webkit-box-shadow: 0 0 0 0 #000000;
-  -moz-box-shadow: 0 0 0 0 #000000;
-  -o-box-shadow: 0 0 0 0 #000000;
-  -ms-box-shadow: 0 0 0 0 #000000;
-}
-
 .outer {
   width: 100%;
 }
@@ -334,13 +319,15 @@ Full-Width Styles
 	text-align:center;
 }
 
-.indexlan {
-	background-color:#000000;
+.lanheader{
+	margin:auto;
+	text-align:center;
+	padding: 160px 0 0 0;
 }
 
 .lansel{
 	margin:100px;
-	
+	padding: 80px 0 80px 0;
 }
 
 .lanfoot{
@@ -348,6 +335,7 @@ Full-Width Styles
 	margin:auto;
 	position:relative;
 	bottom:0;
+	text-align: center;
 	background-color:#000000;
 }
 
