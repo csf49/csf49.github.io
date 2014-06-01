@@ -280,10 +280,18 @@ td {
  }
  
  .cities p{
-	 display:block;
+	 display:inline-block;
 	 padding:0 100px 0 50px;
 	 alignment-adjust: central;
  }
+
+.map {
+	margin:auto;
+	display:block;
+	position:relative;
+	text-align:center;
+	padding-top:20px;
+}
 
 form {
   background: #f2f2f2;
