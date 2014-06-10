@@ -343,7 +343,10 @@ Full-Width Styles
 	height:60px;
 	margin-top:60px;
 	text-align:center;
+	color: #f2f2f2;
 }
+
+
 
 .lanheader{
 	margin:auto;
@@ -352,7 +355,7 @@ Full-Width Styles
 }
 
 .lansel{
-	margin: 100px;
+	margin: 80px;
 	padding: 80px 30px 80px 0;
 }
 
@@ -365,16 +368,20 @@ Full-Width Styles
 	background-color:#000000;
 }
 
+#welcomepage{
+	width: device-width;
+	
+}
+
 #language_banner{
   display: inline-table;
   position: absolute;
   top:0;
   right: 10px;
-  z-index: 10;
   padding: 3px;
   color: #fff;
   background: #39597f no-repeat 95% 50%;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 #forkme_banner {
