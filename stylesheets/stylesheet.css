@@ -385,7 +385,7 @@ Full-Width Styles
 }
 
 #language_banner{
-  display: inline-table;
+  display: block;
   position: absolute;
   padding: 10px 30px 10px 30px;
   color: #fff;
