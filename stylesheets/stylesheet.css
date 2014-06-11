@@ -242,7 +242,7 @@ hr {
 table {
   border: 0 solid #373737;
   margin-bottom: 0;
-  text-align: left;
+  text-align: center;
  }
 
 th {
@@ -357,7 +357,8 @@ Full-Width Styles
 }
 
 .lansel{
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 }
 
@@ -373,28 +374,25 @@ Full-Width Styles
 }
 
 .languagetable{
-	margin: auto;
-	border-style: double;
-	border-color: red;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	padding-right: 62px;
+	padding-right: 22px;
 }
 
 #tableunits{
-	margin:40px;
+	margin:30px;
 }
 
 #language_banner{
   display: inline-table;
   position: absolute;
-  padding: 20px 20px 40px 20px;
+  padding: 10px 30px 10px 30px;
   color: #fff;
   background: #0090ff no-repeat 95% 50%;
   font-weight: 900;
   text-align:center ;
-  height: 90px;
-  width: 160px;
-
+  width: 60px;
 }
 
 #forkme_banner {
