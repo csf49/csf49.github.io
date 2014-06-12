@@ -382,6 +382,17 @@ Full-Width Styles
 	padding-right: 22px;
 }
 
+.resume{
+	position: relative;
+	display: block;
+	margin-top: 50px;	
+}
+
+.resume a {
+	color:#000;
+	text-align: center;
+}
+
 #tableunits{
 	margin:30px;
 }
