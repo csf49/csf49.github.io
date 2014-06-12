@@ -126,7 +126,9 @@ a {
   -ms-transition: text-shadow 0.5s ease;
 }
 
-a:hover, a:focus {text-decoration: underline;}
+a:hover{
+	font-weight: bold;
+}
 
 footer a {
   color: #F2F2F2;
@@ -415,11 +417,15 @@ Full-Width Styles
   bottom:0;
   right: 30px;
   z-index: 0;
-  padding: 0;
+  padding: 0px 10px 0px 10px;
   color: #fff;
   background:#5a5a5a no-repeat 95% 50%;
   font-weight: 100;
   
+}
+
+#contact_banner:hover{
+	background-color: #6e6e6e;
 }
 
 #about_banner {
@@ -428,11 +434,15 @@ Full-Width Styles
   bottom:0;
   right: 120px;
   z-index: 0;
-  padding: 0;
+  padding: 0px 10px 0px 10px;
   color: #fff;
   background:#5a5a5a no-repeat 95% 50%;
   font-weight: 100;
   
+}
+
+#about_banner:hover{
+	background-color: #6e6e6e;
 }
 
 #home_banner {
@@ -441,11 +451,14 @@ Full-Width Styles
   bottom:0;
   right: 200px;
   z-index: 0;
-  padding: 0;
+  padding: 0px 10px 0 10px;
   color: #fff;
   background:#5a5a5a no-repeat 95% 50%;
   font-weight: 100;
-  
+}
+
+#home_banner:hover{
+	background-color: #6e6e6e;
 }
 
 #header_wrap {
