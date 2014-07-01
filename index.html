@@ -1,52 +1,538 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+<head>
+<title>Chen Suofei</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='css/font.css' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--start slider -->
+    <link rel="stylesheet" href="css/fwslider.css" media="all">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/css3-mediaqueries.js"></script>
+    <script src="js/fwslider.js"></script>
+<!--end slider -->
+<script type="text/javascript" src="js/jquery-hover-effect.js"></script>
+<script type="text/javascript">
+//Image Hover
+jQuery(document).ready(function(){
+jQuery(function() {
+	jQuery('ul.da-thumbs > li').hoverdir();
+});
+});
+</script>
+<!-- Add fancyBox main JS and CSS files -->
+<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+		<script>
+			$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 600,
+					mainClass: 'my-mfp-zoom-in'
+			});
+		});
+		</script>
+<!--nav-->
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
 
-  <head>
-    <meta charset='utf-8'/>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="csf49.github.io : Web test project" />
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
 
-    <title>CHEN SUOFEI</title>
-  </head>
-
-<!--- Header --->
- <header class="lanheader">
-
-<div id="indexlan" style="background-image:url('https://farm4.staticflickr.com/3831/14301034602_49286354fb_o.jpg')">
-</div> 
- 
-
-<div style="margin:60px">
-<p style="color:#373737">
--
-</p>
-</div>
-
-</header>
-
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
 
 <body>
-<!--- Content --->
-
-<div class="lansel">
-<table class="languagetable">
-<tr>
-<td id="tableunits" width="auto"><a id="language_banner" href="/en">English</a></td>
-<td id="tableunits" width="auto"><a id="language_banner" href="/cn">中文</a></td>
-<td id="tableunits" width="auto"><a id="language_banner" href="/jp">日本語</a></td>
-</tr>
-</table>
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+	<!--<a href="index.html"><img class="profilelogo" src='https://farm6.staticflickr.com/5318/14509144766_7891952b28_q.jpg' alt="" /></a>
+		-->
+		</div>	
+		
+	<div class="cssmenu">
+		<ul>
+		   <li class="active"><a href="index.html">Home</a></li>
+		   <li><a href="#">About</a>
+		      <ul>
+		         <li class="has-sub"><a href="#">Finance</a></li>
+		         <li class="has-sub"><a href="#">Music</a></li>
+		         <li class="has-sub"><a href="#">Multicultrual</a></li>
+		         <li class="has-sub"><a href="#">Gallery</a></li>
+		      </ul>
+		   </li>
+		   <li><a href="#">Experience</a></li>
+		   <li><a href="#">Skills</a></li>
+		   <li><a href="blog.html">Blog</a></li> 
+		   <li class="last"><a href="contact.html">Contact</a></li>
+		 <div class="clear"></div>
+		 </ul>
+	</div>
+	
+		<div class="clear"></div>
+		<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+					   <li><a href="index.html">Home</a></li>
+					   <li><a href="#">About</a></li>
+					   <li><a href="#">Experience</a></li>
+					   <li><a href="#">Skills</a></li>
+					   <li><a href="blog.html">Blog</a></li>
+					   <li class="last"><a href="contact.html">Contact</a></li>
+				</ul>
+				<a href="#" id="pull">Menu</a>
+			</nav>
+		</div>
+	<div class="clear"></div>
+	</div>
 </div>
-
-<!---Footer--->
-<div class="lanfoot">
-  <footer class="inner">
-<p>
-Copyright Reserved 2014 CHEN SUOFEI
-</p>
-  </footer>
 </div>
+<!-- start slider -->
+    <div id="fwslider">
+        <div class="slider_container">
+            <div class="slide"> 
+                <!-- Slide image -->
+                    <img src="https://farm4.staticflickr.com/3841/14354837890_54e79c3bdc_o.jpg">
+                <!-- /Slide image -->
+                <!-- Texts container -->
+                <div class="slide_content">
+                    <div class="slide_content_wrap">
+                        <!-- Text title -->
+                        <!--<h4 class="title"></h4>-->
+                        <!-- /Text title -->
+                        
+                        <!-- Text description -->
+                        <!--<p class="description"></p>-->
+                        <!-- /Text description -->
+                    </div>
+                </div>
+                 <!-- /Texts container -->
+            </div>
+            <!-- /Duplicate to create more slides -->
+            <div class="slide">
+                <img src="https://farm4.staticflickr.com/3908/14355451648_4bc0e70f88_o.jpg">
+                <div class="slide_content">
+                    <div class="slide_content_wrap">
+                        <!--<h4 class="title"></h4>-->
+                        <!--<p class="description"></p>-->
+                    </div>
+                </div>
+            </div>
+            <!--/slide -->
+        </div>
+        <div class="timers"></div>
+        <div class="slidePrev"><span></span></div>
+        <div class="slideNext"><span></span></div>
+    </div>
+    <!--/slider -->
+<!-- start mian -->
+<div class="main_bg">
+<div class="wrap">
+	<div class="grids_1_of_3">
+		<div class="grid_1_of_3 images_1_of_3">
+			 <img src="images/bounce1.gif" width="130" height="130" alt="" />
+			 <a href="#"><h3>projects</h3></a>
+			 <p></p>
+		</div>
+		<div class="grid_1_of_3 images_1_of_3">
+			<img src="images/icon2.png" width="130" height="130"  alt="" />
+			<a href="#"><h3>profile</h3></a>
+			<p></p>
+		</div>
+		<div class="grid_1_of_3 images_1_of_3">
+			<img src="images/bounce3.gif" width="130" height="130" alt="" />
+			<a href="#"><h3>network</h3></a>
+			<p> </p>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+</div>
+<!-- start top_grid -->
 
-  </body>
+<!--
+<div class="top_grid_bg">
+<div class="wrap">
+	<div class="top_grid">
+		<div class="top_grid_text">
+			<h2>recent works</h2>
+		</div>
+		<div class="top_grid_btn">
+			<a class="btn" href="index.html"> Browse all</a>
+		</div>
+		<div class="clear"></div>
+		<div class="top_grid_gallery">
+			<div class="image_grid portfolio_4col top_grid_portfoli">
+				<ul style="" id="list" class="portfolio_list da-thumbs">
+					<li>
+						<img src="images/gallery1.jpg" alt="img">
+						<article class="da-animate da-slideFromLeft" style="display: block;">
+							<h3>A Sample Portfolio</h3>
+							<span class="link_post"><a class="popup-with-zoom-anim" href="#small-dialog"></a></span>
+							<span class="zoom"><a class="popup-with-zoom-anim" href="#small-dialog1"></a></span>
+							 <div id="small-dialog1" class="mfp-hide">
+								<div class="pop_up">
+								 	<h2>A Sample Portfolio</h2>
+									<img src="images/gallery1_zoom.jpg" alt=""/>
+					  			</div>
+							</div>
+						</article>
+					</li>
+				</ul>
+			</div>
+			<div class="image_grid portfolio_4col top_grid_portfoli">
+				<ul style="" id="list" class="portfolio_list da-thumbs">
+					<li>
+						<img src="images/gallery2.jpg" alt="img">
+						<article class="da-animate da-slideFromLeft" style="display: block;">
+							<h3>A Sample Portfolio</h3>
+							<span class="link_post"><a class="popup-with-zoom-anim" href="#small-dialog"></a></span>
+							<span class="zoom"><a class="popup-with-zoom-anim" href="#small-dialog1"></a></span>
+						</article>
+					</li>
+				</ul>
+			</div>
+			<div class="image_grid portfolio_4col top_grid_portfoli">
+				<ul style="" id="list" class="portfolio_list da-thumbs">
+					<li>
+						<img src="images/gallery3.jpg" alt="img">
+						<article class="da-animate da-slideFromLeft" style="display: block;">
+							<h3>A Sample Portfolio</h3>
+							<span class="link_post"><a class="popup-with-zoom-anim" href="#small-dialog"></a></span>
+							<span class="zoom"><a class="popup-with-zoom-anim" href="#small-dialog1"></a></span>
+						</article>
+					</li>
+				</ul>
+			</div>
+			<div class="image_grid portfolio_4col ">
+				<ul style="" id="list" class="portfolio_list da-thumbs">
+					<li>
+						<img src="images/gallery4.jpg" alt="img">
+						<article class="da-animate da-slideFromLeft" style="display: block;">
+							<h3>A Sample Portfolio</h3>
+							<span class="link_post"><a class="popup-with-zoom-anim" href="#small-dialog"></a></span>
+							<span class="zoom"><a class="popup-with-zoom-anim" href="#small-dialog1"></a></span>
+						</article>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="top_grid_gallery">
+			<div class="image_grid portfolio_4col top_grid_portfoli">
+				<ul style="" id="list" class="portfolio_list da-thumbs">
+					<li>
+						<img src="images/gallery2.jpg" alt="img">
+						<article class="da-animate da-slideFromLeft" style="display: block;">
+							<h3>A Sample Portfolio</h3>
+							<span class="link_post"><a class="popup-with-zoom-anim" href="#small-dialog"></a></span>
+							<span class="zoom"><a class="popup-with-zoom-anim" href="#small-dialog1"></a></span>
+						</article>
+					</li>
+				</ul>
+			</div>
+			<div class="image_grid portfolio_4col top_grid_portfoli">
+				<ul style="" id="list" class="portfolio_list da-thumbs">
+					<li>
+						<img src="images/gallery5.jpg" alt="img">
+						<article class="da-animate da-slideFromLeft" style="display: block;">
+							<h3>A Sample Portfolio</h3>
+							<span class="link_post"><a class="popup-with-zoom-anim" href="#small-dialog"></a></span>
+							<span class="zoom"><a class="popup-with-zoom-anim" href="#small-dialog1"></a></span>
+						</article>
+					</li>
+				</ul>
+			</div>
+			<div class="image_grid portfolio_4col top_grid_portfoli">
+				<ul style="" id="list" class="portfolio_list da-thumbs">
+					<li>
+						<img src="images/gallery6.jpg" alt="img">
+						<article class="da-animate da-slideFromLeft" style="display: block;">
+							<h3>A Sample Portfolio</h3>
+							<span class="link_post"><a class="popup-with-zoom-anim" href="#small-dialog"></a></span>
+							<span class="zoom"><a class="popup-with-zoom-anim" href="#small-dialog1"></a></span>
+						</article>
+					</li>
+				</ul>
+			</div>
+			<div class="image_grid portfolio_4col ">
+				<ul style="" id="list" class="portfolio_list da-thumbs">
+					<li>
+						<img src="images/gallery3.jpg" alt="img">
+						<article class="da-animate da-slideFromLeft" style="display: block;">
+							<h3>A Sample Portfolio</h3>
+							<span class="link_post"><a class="popup-with-zoom-anim" href="#small-dialog"></a></span>
+							<span class="zoom"><a class="popup-with-zoom-anim" href="#small-dialog1"></a></span>
+						</article>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>	
+</div>
+</div>
+-->
+
+<!-- start mid_grid -->
+<!--
+<div class="mid_grid_bg">
+<div class="wrap">
+	<div class="mid_grid">
+		<div class="mid_grid_left">
+			<h2>what about the retina?</h2>
+			<h3>let me introduce you to clean, simple, yet powerful <a href="#">Lorem Ipsum is simply dummy</a> created specially for you.</h3>
+			<a href="#" class="btn">get started</a>
+		</div>
+		<div class="mid_grid_right">
+			<img src="images/banner.jpg" alt=""/>
+		</div>
+		<div class="clear"></div>	
+	</div>
+</div>
+</div>
+-->
+<!-- start mid_grid -->
+<!--
+<div class="btm_grid_bg">
+<div class="wrap">
+	<div class="btm_grid">
+		<h2>latest news</h2>
+		<div class="span_of_3">
+			<div class="span1_of_3">
+				<a class="popup-with-zoom-anim" href="#small-dialog"><img src="images/pic1.jpg" alt=""/></a>
+				<a class="popup-with-zoom-anim" href="#small-dialog"><h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3></a>
+				<h4 class="divider"></h4>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+			</div>
+			<div class="span1_of_3">
+				<a class="popup-with-zoom-anim" href="#small-dialog"><img src="images/pic2.jpg" alt=""/>
+				<a class="popup-with-zoom-anim" href="#small-dialog"><h3 class="style">Curabitur sagittis augue posuere metus.</h3></a>
+				<h4 class="divider"></h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+			</div>
+			<div class="span1_of_3">
+				<a class="popup-with-zoom-anim" href="#small-dialog"><img src="images/pic1.jpg" alt=""/>
+				<a class="popup-with-zoom-anim" href="#small-dialog"><h3>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </h3></a>
+				<h4 class="divider"></h4>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+</div>
+-->
+<!-- start testimonial  -->
+<!--
+<div class="testimonial_bg">
+<div class="wrap">
+	<div class="testimonial">
+		<h2>testmonials from our clients</h2>
+		<h3>See what people are saying about our work</h3>
+		<div class="testimonial_text">
+			<h4>This theme is amazing, i have used many themes in the past but nothing compares to Retina - 5 stars all the way!</h4>
+		</div>
+		<div class="client_btn">
+			<a class="popup-with-zoom-anim" href="#small-dialog">Client name</a>
+		</div>
+		-->
+	   <!-- start magnific-->
+	   <!--
+    	<div id="small-dialog" class="mfp-hide">
+			<div class="pop_up">
+			 	<h2>Aenean fringilla elementum</h2>
+			 	<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.</p>
+  			</div>
+		</div>
+		-->
+		<!-- end magnific-->
+		<!--
+		<div class="client_pic">
+			<ul>
+				<li><a class="active" href=""><img src="images/client.jpg" alt=""/></a></li>
+				<li><a href=""><img src="images/client.jpg" alt=""/></a></li>
+				<li><a href=""><img src="images/client.jpg" alt=""/></a></li>
+				<li><a href=""><img src="images/client.jpg" alt=""/></a></li>
+				<li><a href=""><img src="images/client.jpg" alt=""/></a></li>			
+			</ul>
+		</div>
+		<div class="clear"></div>	
+	</div>
+</div>
+</div>
+-->
+<!-- start testimonial  -->
+<!--
+<div class="clients_bg">
+<div class="wrap">
+	<div class="clients">
+		<div class="clients_txt">
+			<h2>our clients</h2>
+			<h3></h3>
+		 <div class="clear"></div>
+		</div>
+		<div class="tool_tip">
+			<ul class="tt-wrapper">
+				<li><a class="tt-sample" href="#"><img src="images/sample.jpg" alt="" title="Sample" /><span>Sample</span></a></li>
+				<li><a class="tt-sample" href="#"><img src="images/sample1.jpg" alt="" title="Sample" /><span>Sample</span></a></li>
+				<li><a class="tt-sample" href="#"><img src="images/sample.jpg" alt="" title="Sample" /><span>Sample</span></a></li>
+				<li><a class="tt-sample" href="#"><img src="images/sample1.jpg" alt="" title="Sample" /><span>Sample</span></a></li>
+				<li><a class="tt-sample" href="#"><img src="images/sample.jpg" alt="" title="Sample" /><span>Sample</span></a></li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<div class="tool_tip1">
+			<ul class="tt-wrapper">
+				<li><a class="tt-sample" href="#"><img src="images/sample1.jpg" alt="" title="Sample" /><span>Sample</span></a></li>
+				<li><a class="tt-sample" href="#"><img src="images/sample.jpg" alt="" title="Sample" /><span>Sample</span></a></li>
+				<li><a class="tt-sample" href="#"><img src="images/sample1.jpg" alt="" title="Sample" /><span>Sample</span></a></li>
+				<li><a class="tt-sample" href="#"><img src="images/sample.jpg" alt="" title="Sample" /><span>Sample</span></a></li>
+				<li><a class="tt-sample" href="#"><img src="images/sample1.jpg" alt="" title="Sample" /><span>Sample</span></a></li>
+				<div class="clear"></div>
+			</ul>
+		
+		</div>		
+	 </div>
+</div>
+</div>
+	<div class="clear"></div>
+	-->
+<!-- start testimonial  -->
+<!--
+<div class="products_bg">
+<div class="wrap">
+	<div class="products">
+		<h2>Newest Projects</h2>
+		<div class="products_of_3">
+			<div class="product1_of_3">
+				<a class="popup-with-zoom-anim" href="#small-dialog2"><img src="images/proj1.jpg" alt=""/></a>
+				<a href="#"><h3>Woo Project #1</h3></a>
+				<h4>$3</h4>
+				<div id="small-dialog2" class="mfp-hide">
+					<div class="pop_up">
+					 	<h2>our new projects</h2>
+						<img src="images/proj2.jpg" alt=""/>
+					</div>
+				</div>
+			</div>
+			<div class="product1_of_3">
+				<a class="popup-with-zoom-anim" href="#small-dialog2"><img src="images/proj2.jpg" alt=""/></a>
+				<a href="#"><h3>Woo Project #2</h3></a>
+				<h4>$5</h4>
+			</div>
+			<div class="product1_of_3">
+				<a class="popup-with-zoom-anim" href="#small-dialog2"><img src="images/proj3.jpg" alt=""/></a>
+				<a href="#"><h3>Woo Project #3</h3></a>
+				<h4>$9</h4>
+			</div>		
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+</div>
+-->
+
+<!-- start footer_top  -->
+<div class="footer_top_bg">
+<div class="wrap">
+	<div class="footer_top">
+		<h2>Thank you for stopping by. <a href="mailto:chensf94@gmail.com">Leave me a message</a> if you have any idea about me or my website.</h2>
+	</div>
+</div>
+</div>
+<!-- start footer  -->
+<div class="footer_bg">
+<div class="wrap">
+	<div class="footer">
+		<div class="span_of_4">
+			<div class="span1_of_4">
+				<h2>recent posts</h2>
+				<ul class="f_nav1">
+				<!--<li><a href="">This is a sample blog post with an extra super  long title</a></li>
+					<li><a href="">This is a sample blog post</a></li>
+					<li><a href="">This is another sample post</a></li>-->
+				</ul>
+			</div>
+			<div class="span1_of_4">
+				<h2></h2>
+				<ul class="f_nav1">
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+				</ul>
+			</div>
+			<div class="span1_of_4">
+				<h2></h2>
+				<ul class="f_nav1">
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+				</ul>
+			</div>
+			<div class="span1_of_4">
+				<h2>Chen Suofei</h2>
+				<p class="f_para">A multilingual business graduate, a financial analyst, a musician and a cook.</p>
+				<div class="search">
+		    		<form>
+		    			<input type="text" value="" placeholder="search...">
+		    			<input type="submit" value="">
+		    		</form>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="footer_btm">
+			<div class="social-icons">
+			     <ul>
+			        <li><a href="#" target="_blank"> </a></li>
+			        <li><a  href="#" target="_blank"></a></li>
+			        <li><a  href="#" target="_blank"></a></li>
+			        <li><a href="#" target="_blank"></a></li>
+			        <li><a href="#" target="_blank"></a></li>
+			        <li><a href="#" target="_blank"> </a></li>
+			        <li><a  href="#" target="_blank"></a></li>
+			        <li><a  href="#" target="_blank"></a></li>
+			        <li><a href="#" target="_blank"></a></li>
+				</ul>
+			</div>
+		<div class="copy">
+			<p class="w3-link">Copyright &copy; 2014.Chen Suofei All rights reserved.</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+	</div>
+</div>
+</div>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
 </html>
