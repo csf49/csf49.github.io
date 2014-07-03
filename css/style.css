@@ -28,20 +28,6 @@ nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
-
-.profilelogo{
-  display: block;
-  float: left;
-  position:relative;
-  margin: auto;
-  width: 50px;
-  height: 50px;
-  background-position: center center;
-  -webkit-border-radius: 99em;
-  -moz-border-radius: 99em;
-  border-radius: 99em;  
-}
-
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 100%;
@@ -58,7 +44,9 @@ body {
 .header{
 	padding: 2%;
 }
-
+.logo{
+	float: left;
+}
 .cssmenu {
 	float: right;
 }
