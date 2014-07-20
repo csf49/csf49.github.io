@@ -47,6 +47,14 @@ body {
 .logo{
 	float: left;
 }
+.space3{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.space2{
+	margin-top:2%;
+	margin-bottom:2%;
+}
 .cssmenu {
 	float: right;
 }
