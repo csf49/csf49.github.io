@@ -51,6 +51,10 @@ body {
 .space40{
 	margin-top: 40%;
 }
+.space20{
+	margin-bottom: 20%;
+	margin-top: 20%;
+}
 .space5{
 	margin-bottom: 5%;
 	margin-top: 5%;
@@ -278,12 +282,41 @@ body {
 .images_1_of_3  h3:hover{
 	color: #febd17;
 }
+.images_1_of_3  h4{
+	color: #000000;
+	text-transform: uppercase;
+	margin-top: 0.8em;
+	margin-bottom: 0.4em;
+	font-size: 1.2em;
+	font-weight: 200;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.8em;
+	-webkit-text-stroke: 2px;
+	letter-spacing: 1px;
+	-webkit-transition: 0.9s;
+	-moz-transition: 0.9s;
+	-o-transition: 0.9s;
+	transition: 0.9s;
+}
+.images_1_of_3  h4:hover{
+	color: #febd17;
+}
 .images_1_of_3  p  {
 	color: #000000;
 	line-height: 1.8em;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1em;
 }
+.files_1_of_3  a{
+	color: #000000;
+	line-height: 1.8em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 0.8em;
+}
+.files_1_of_3  a:hover{
+	color:#febd17;
+}
+
 /* start top_mid_bg */
 .top_grid_bg{
 	background: url('../images/bg1.jpg') no-repeat;
